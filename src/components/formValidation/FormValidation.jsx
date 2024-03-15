@@ -90,7 +90,7 @@ const FormValidation = () => {
                       onChange={handlechange}
                     ></input>
                   </div>
-                  {error.fullName && <p>{error.fullName}</p>}
+                  {error.fullName && <p className="text-red-500">{error.fullName}</p>}
                 </div>
                 <div>
                   <label
